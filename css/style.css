@@ -5,6 +5,7 @@
 
 @import url('https://fonts.googleapis.com/css?family=Rajdhani:300,400,500,600,700');
 @import url('https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i');
+
 @font-face {
     font-family: "Righteous";
     src: url("../fonts/BalooChettan-Regular.ttf");
@@ -117,7 +118,7 @@ h4 a,
 h5 a,
 h6 a {
     color: #212121;
-    text-decoration: none!important;
+    text-decoration: none !important;
     opacity: 1
 }
 
@@ -162,7 +163,7 @@ img {
     height: auto;
 }
 
- :focus {
+:focus {
     outline: 0;
 }
 
@@ -237,7 +238,7 @@ button {
 }
 
 .bg-light {
-    background-color: transparent!important;
+    background-color: transparent !important;
 }
 
 .toggle_icon {
@@ -289,6 +290,7 @@ button {
         padding-top: 15px;
         background-color: rgb(0, 0, 0, 0.9);
     }
+
     .sidenav a {
         font-size: 18px;
     }
@@ -604,9 +606,28 @@ button {
 .time_sections {
     width: 100%;
     float: left;
-    background-color: #99b17a;
+    /* background-color: #99b17a; */
     height: auto;
     padding-bottom: 90px;
+    background-image: url('https://media.istockphoto.com/id/1248542279/photo/spa-beauty-massage-health-wellness-spa-thai-therapy-treatment-aromatherapy-for-foot-and-hands.jpg?s=1024x1024&w=is&k=20&c=bt7QLdU3tmG0AClMKmb5pI4oLtJuvo78eaKJPnriOvI=');
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    color: #fff!important;
+
+}
+
+.overlay {
+    background-color: rgba(0, 0, 0, 0.5);
+    /* set the background color and opacity */
+    position: absolute;
+    /* set the position property to absolute */
+    top: 0;
+    /* set the top and left properties to 0 */
+    left: 0;
+    width: 100%;
+    /* set the width and height to cover the entire section */
+    height: 100%;
 }
 
 /* customer section start */
